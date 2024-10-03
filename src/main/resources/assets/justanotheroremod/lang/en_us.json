@@ -1,0 +1,19 @@
+{
+	"item.resourceful.flint_shears": "Flint Shears",
+	"item.resourceful.stone_shears": "Stone Shears",
+	"item.resourceful.wood_shears": "Wood Shears",
+	
+	"item.resourceful.template_emerald": "Emerald Template",
+	
+	"item.resourceful.emerald_sword": "Emerald Sword",
+	"item.resourceful.emerald_pickaxe": "Emerald Pickaxe",
+	"item.resourceful.emerald_axe": "Emerald Axe",
+	"item.resourceful.emerald_shovel": "Emerald Shovel",
+	"item.resourceful.emerald_hoe": "Emerald Hoe",
+	"item.resourceful.emerald_helmet": "Emerald Helmet",
+	"item.resourceful.emerald_chestplate": "Emerald Chestplate",
+	"item.resourceful.emerald_leggings": "Emerald Leggings",
+	"item.resourceful.emerald_boots": "Emerald Boots",
+
+	"creativetab.resourceful_tab": "Resourceful"
+}
