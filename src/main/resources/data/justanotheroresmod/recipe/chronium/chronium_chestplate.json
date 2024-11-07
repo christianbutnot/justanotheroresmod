@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"A A",
+		"AAA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "justanotheroresmod:chronium_gem"
+		}
+	},
+	"result": {
+		"id": "justanotheroresmod:chronium_chestplate",
+		"count": 1
+	}
+}

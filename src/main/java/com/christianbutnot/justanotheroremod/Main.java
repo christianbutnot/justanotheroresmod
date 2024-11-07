@@ -10,7 +10,7 @@ import net.neoforged.fml.common.Mod;
 @Mod(Main.MODID)
 public class Main {
 	// Define mod id in a common place for everything to reference
-	public static final String MODID = "resourceful";
+	public static final String MODID = "justanotheroresmod";
 
 	public Main(IEventBus bus) {
 		CreativeTab.register(bus);

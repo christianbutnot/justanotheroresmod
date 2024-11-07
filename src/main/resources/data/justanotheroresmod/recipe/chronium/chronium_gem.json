@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "justanotheroresmod:chronium_ore"
+  },
+  "result": {
+    "id": "justanotheroresmod:chronium_gem"
+  },
+  "experience": 0.6,
+  "cookingtime": 200
+}

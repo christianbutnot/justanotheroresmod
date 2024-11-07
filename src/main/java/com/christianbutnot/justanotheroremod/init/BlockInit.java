@@ -7,6 +7,7 @@ import com.christianbutnot.justanotheroremod.Main;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -16,8 +17,16 @@ public class BlockInit {
 	
 	public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Main.MODID);
 
-    //public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
-     //       () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+	public static final DeferredBlock<Block> CHRONIUM_ORE = registerBlock("chronium_ore",
+			() -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+	public static final DeferredBlock<Block> ROSIUM_ORE = registerBlock("rosium_ore",
+			() -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+	public static final DeferredBlock<Block> LUCIUM_ORE = registerBlock("lucium_ore",
+			() -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+	public static final DeferredBlock<Block> MOCYLITE_ORE = registerBlock("mocylite_ore",
+			() -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+	public static final DeferredBlock<Block> ENDERITE_ORE = registerBlock("enderite_ore",
+			() -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
     
     
 	@SuppressWarnings("unused")

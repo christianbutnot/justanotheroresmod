@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"A A",
+		"AAA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "justanotheroresmod:mocylite_gem"
+		}
+	},
+	"result": {
+		"id": "justanotheroresmod:mocylite_chestplate",
+		"count": 1
+	}
+}

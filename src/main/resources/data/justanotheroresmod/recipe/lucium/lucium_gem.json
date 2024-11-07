@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "justanotheroresmod:lucium_ore"
+  },
+  "result": {
+    "id": "justanotheroresmod:lucium_gem"
+  },
+  "experience": 0.6,
+  "cookingtime": 200
+}

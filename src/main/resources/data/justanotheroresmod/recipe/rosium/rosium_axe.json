@@ -1,0 +1,20 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" AA",
+		" SA",
+		" S "
+	],
+	"key": {
+		"A": {
+			"item": "justanotheroresmod:rosium_gem"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"id": "justanotheroresmod:rosium_axe",
+		"count": 1
+	}
+}

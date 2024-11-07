@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"A A",
+		"A A"
+	],
+	"key": {
+		"A": {
+			"item": "justanotheroresmod:enderite_gem"
+		}
+	},
+	"result": {
+		"id": "justanotheroresmod:enderite_leggings",
+		"count": 1
+	}
+}

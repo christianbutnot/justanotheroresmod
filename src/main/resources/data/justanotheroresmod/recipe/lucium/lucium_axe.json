@@ -1,0 +1,20 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" AA",
+		" SA",
+		" S "
+	],
+	"key": {
+		"A": {
+			"item": "justanotheroresmod:lucium_gem"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"id": "justanotheroresmod:lucium_axe",
+		"count": 1
+	}
+}

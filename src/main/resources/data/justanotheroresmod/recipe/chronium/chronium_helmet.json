@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"A A",
+		"   "
+	],
+	"key": {
+		"A": {
+			"item": "justanotheroresmod:chronium_gem"
+		}
+	},
+	"result": {
+		"id": "justanotheroresmod:chronium_helmet",
+		"count": 1
+	}
+}

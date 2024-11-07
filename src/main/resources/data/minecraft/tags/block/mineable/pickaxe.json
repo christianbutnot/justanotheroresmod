@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "justanotheroresmod:chronium_ore",
+    "justanotheroresmod:rosium_ore",
+    "justanotheroresmod:lucium_ore",
+    "justanotheroresmod:mocylite_ore",
+    "justanotheroresmod:enderite_ore"
+ ]
+}

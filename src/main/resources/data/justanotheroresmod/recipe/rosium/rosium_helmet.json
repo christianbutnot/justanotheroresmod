@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"A A",
+		"   "
+	],
+	"key": {
+		"A": {
+			"item": "justanotheroresmod:rosium_gem"
+		}
+	},
+	"result": {
+		"id": "justanotheroresmod:rosium_helmet",
+		"count": 1
+	}
+}
