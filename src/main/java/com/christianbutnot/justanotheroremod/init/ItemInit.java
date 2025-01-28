@@ -50,13 +50,13 @@ public class ItemInit {
 					new Item.Properties().attributes(HoeItem.createAttributes(CustomTiersEnum.CHRONIUM, -2, -1f))));
 	// chronium armor
 	public static final DeferredItem<Item> CHRONIUM_HELMET = ITEMS.register("chronium_helmet",
-			() -> new ArmorItem(JAOMArmorMaterials.CHRONIUM, Type.HELMET, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.CHRONIUM, Type.HELMET, new Item.Properties().durability(200).stacksTo(1)));
 	public static final DeferredItem<Item> CHRONIUM_CHESTPLATE = ITEMS.register("chronium_chestplate",
-			() -> new ArmorItem(JAOMArmorMaterials.CHRONIUM, Type.CHESTPLATE, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.CHRONIUM, Type.CHESTPLATE, new Item.Properties().durability(260).stacksTo(1)));
 	public static final DeferredItem<Item> CHRONIUM_LEGGINGS = ITEMS.register("chronium_leggings",
-			() -> new ArmorItem(JAOMArmorMaterials.CHRONIUM, Type.LEGGINGS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.CHRONIUM, Type.LEGGINGS, new Item.Properties().durability(230).stacksTo(1)));
 	public static final DeferredItem<Item> CHRONIUM_BOOTS = ITEMS.register("chronium_boots",
-			() -> new ArmorItem(JAOMArmorMaterials.CHRONIUM, Type.BOOTS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.CHRONIUM, Type.BOOTS, new Item.Properties().durability(210).stacksTo(1)));
 
 	// rosium tools
 	public static final DeferredItem<Item> ROSIUM_SWORD = ITEMS.register("rosium_sword",
@@ -76,13 +76,13 @@ public class ItemInit {
 					new Item.Properties().attributes(HoeItem.createAttributes(CustomTiersEnum.ROSIUM, -3, -1f))));
 	// rosium armor
 	public static final DeferredItem<Item> ROSIUM_HELMET = ITEMS.register("rosium_helmet",
-			() -> new ArmorItem(JAOMArmorMaterials.ROSIUM, Type.HELMET, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.ROSIUM, Type.HELMET, new Item.Properties().durability(363).stacksTo(1)));
 	public static final DeferredItem<Item> ROSIUM_CHESTPLATE = ITEMS.register("rosium_chestplate",
-			() -> new ArmorItem(JAOMArmorMaterials.ROSIUM, Type.CHESTPLATE, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.ROSIUM, Type.CHESTPLATE, new Item.Properties().durability(528).stacksTo(1)));
 	public static final DeferredItem<Item> ROSIUM_LEGGINGS = ITEMS.register("rosium_leggings",
-			() -> new ArmorItem(JAOMArmorMaterials.ROSIUM, Type.LEGGINGS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.ROSIUM, Type.LEGGINGS, new Item.Properties().durability(495).stacksTo(1)));
 	public static final DeferredItem<Item> ROSIUM_BOOTS = ITEMS.register("rosium_boots",
-			() -> new ArmorItem(JAOMArmorMaterials.ROSIUM, Type.BOOTS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.ROSIUM, Type.BOOTS, new Item.Properties().durability(429).stacksTo(1)));
 
 	// lucium tools
 	public static final DeferredItem<Item> LUCIUM_SWORD = ITEMS.register("lucium_sword",
@@ -102,13 +102,13 @@ public class ItemInit {
 					new Item.Properties().attributes(HoeItem.createAttributes(CustomTiersEnum.LUCIUM, -3, -1f))));
 	// lucium armor
 	public static final DeferredItem<Item> LUCIUM_HELMET = ITEMS.register("lucium_helmet",
-			() -> new ArmorItem(JAOMArmorMaterials.LUCIUM, Type.HELMET, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.LUCIUM, Type.HELMET, new Item.Properties().durability(363).stacksTo(1)));
 	public static final DeferredItem<Item> LUCIUM_CHESTPLATE = ITEMS.register("lucium_chestplate",
-			() -> new ArmorItem(JAOMArmorMaterials.LUCIUM, Type.CHESTPLATE, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.LUCIUM, Type.CHESTPLATE, new Item.Properties().durability(528).stacksTo(1)));
 	public static final DeferredItem<Item> LUCIUM_LEGGINGS = ITEMS.register("lucium_leggings",
-			() -> new ArmorItem(JAOMArmorMaterials.LUCIUM, Type.LEGGINGS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.LUCIUM, Type.LEGGINGS, new Item.Properties().durability(495).stacksTo(1)));
 	public static final DeferredItem<Item> LUCIUM_BOOTS = ITEMS.register("lucium_boots",
-			() -> new ArmorItem(JAOMArmorMaterials.LUCIUM, Type.BOOTS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.LUCIUM, Type.BOOTS, new Item.Properties().durability(429).stacksTo(1)));
 
 	// mocylite tools
 	public static final DeferredItem<Item> MOCYLITE_SWORD = ITEMS.register("mocylite_sword",
@@ -128,13 +128,13 @@ public class ItemInit {
 					new Item.Properties().attributes(HoeItem.createAttributes(CustomTiersEnum.MOCYLITE, -3, -1f))));
 	// mocylite armor
 	public static final DeferredItem<Item> MOCYLITE_HELMET = ITEMS.register("mocylite_helmet",
-			() -> new ArmorItem(JAOMArmorMaterials.MOCYLITE, Type.HELMET, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.MOCYLITE, Type.HELMET, new Item.Properties().durability(363).stacksTo(1)));
 	public static final DeferredItem<Item> MOCYLITE_CHESTPLATE = ITEMS.register("mocylite_chestplate",
-			() -> new ArmorItem(JAOMArmorMaterials.MOCYLITE, Type.CHESTPLATE, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.MOCYLITE, Type.CHESTPLATE, new Item.Properties().durability(528).stacksTo(1)));
 	public static final DeferredItem<Item> MOCYLITE_LEGGINGS = ITEMS.register("mocylite_leggings",
-			() -> new ArmorItem(JAOMArmorMaterials.MOCYLITE, Type.LEGGINGS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.MOCYLITE, Type.LEGGINGS, new Item.Properties().durability(495).stacksTo(1)));
 	public static final DeferredItem<Item> MOCYLITE_BOOTS = ITEMS.register("mocylite_boots",
-			() -> new ArmorItem(JAOMArmorMaterials.MOCYLITE, Type.BOOTS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.MOCYLITE, Type.BOOTS, new Item.Properties().durability(429).stacksTo(1)));
 
 	// enderite tools
 	public static final DeferredItem<Item> ENDERITE_SWORD = ITEMS.register("enderite_sword",
@@ -154,13 +154,13 @@ public class ItemInit {
 					new Item.Properties().attributes(HoeItem.createAttributes(CustomTiersEnum.ENDERITE, -4, -1f))));
 	// enderite armor
 	public static final DeferredItem<Item> ENDERITE_HELMET = ITEMS.register("enderite_helmet",
-			() -> new ArmorItem(JAOMArmorMaterials.ENDERITE, Type.HELMET, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.ENDERITE, Type.HELMET, new Item.Properties().durability(407).stacksTo(1)));
 	public static final DeferredItem<Item> ENDERITE_CHESTPLATE = ITEMS.register("enderite_chestplate",
-			() -> new ArmorItem(JAOMArmorMaterials.ENDERITE, Type.CHESTPLATE, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.ENDERITE, Type.CHESTPLATE, new Item.Properties().durability(592).stacksTo(1)));
 	public static final DeferredItem<Item> ENDERITE_LEGGINGS = ITEMS.register("enderite_leggings",
-			() -> new ArmorItem(JAOMArmorMaterials.ENDERITE, Type.LEGGINGS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.ENDERITE, Type.LEGGINGS, new Item.Properties().durability(555).stacksTo(1)));
 	public static final DeferredItem<Item> ENDERITE_BOOTS = ITEMS.register("enderite_boots",
-			() -> new ArmorItem(JAOMArmorMaterials.ENDERITE, Type.BOOTS, new Item.Properties().stacksTo(1)));
+			() -> new ArmorItem(JAOMArmorMaterials.ENDERITE, Type.BOOTS, new Item.Properties().durability(481).stacksTo(1)));
 
 	public static void register(IEventBus bus) {
 		ITEMS.register(bus);
