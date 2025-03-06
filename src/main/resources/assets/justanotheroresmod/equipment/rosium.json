@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "justanotheroresmod:rosium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "justanotheroresmod:rosium"
+      }
+    ]
+  }
+}

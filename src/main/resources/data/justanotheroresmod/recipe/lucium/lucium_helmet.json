@@ -1,17 +1,16 @@
 {
-"type": "minecraft:crafting_shaped",
-	"pattern": [
-		"AAA",
-		"A A",
-		"   "
-	],
-	"key": {
-		"A": {
-			"item": "justanotheroresmod:lucium_gem"
-		}
-	},
-	"result": {
-		"id": "justanotheroresmod:lucium_helmet",
-		"count": 1
-	}
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": "justanotheroresmod:lucium_gem"
+  },
+  "pattern": [
+    "   ",
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "justanotheroresmod:lucium_helmet"
+  }
 }
+

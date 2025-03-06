@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "justanotheroresmod:mocylite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "justanotheroresmod:mocylite"
+      }
+    ]
+  }
+}

@@ -1,11 +1,9 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "justanotheroresmod:mocylite_ore"
-  },
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": "justanotheroresmod:mocylite_ore",
   "result": {
     "id": "justanotheroresmod:mocylite_gem"
-  },
-  "experience": 0.6,
-  "cookingtime": 200
+  }
 }

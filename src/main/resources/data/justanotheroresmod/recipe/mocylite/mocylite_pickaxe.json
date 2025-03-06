@@ -1,20 +1,17 @@
 {
-"type": "minecraft:crafting_shaped",
-	"pattern": [
-		"AAA",
-		" S ",
-		" S "
-	],
-	"key": {
-		"A": {
-			"item": "justanotheroresmod:mocylite_gem"
-		},
-		"S": {
-			"item": "minecraft:stick"
-		}
-	},
-	"result": {
-		"id": "justanotheroresmod:mocylite_pickaxe",
-		"count": 1
-	}
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "justanotheroresmod:mocylite_gem"
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " #" 
+  ],
+  "result": {
+    "count": 1,
+    "id": "justanotheroresmod:mocylite_pickaxe"
+  }
 }
+

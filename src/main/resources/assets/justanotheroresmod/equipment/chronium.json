@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "justanotheroresmod:chronium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "justanotheroresmod:chronium"
+      }
+    ]
+  }
+}
